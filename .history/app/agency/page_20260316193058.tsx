@@ -2,24 +2,25 @@ import Navbar from "../../components/Navbar"
 import { Palette, Code, Globe } from "lucide-react"
 
 const projects = [
+
 { name:"Genio Digital", url:"https://renskywalker.github.io/genio-digital/" },
 { name:"Infinitx", url:"https://renancursi79.wixsite.com/infinitx" },
 { name:"Elias Gualberto", url:"https://www.eliasgualbertocustodio.com.br/" },
 { name:"Prism School", url:"https://renskywalker.github.io/prism-school/" },
 { name:"3MPT", url:"https://3mpt.com.br" },
 { name:"Prex Robot", url:"https://prexrobot-production.up.railway.app/" }
+
 ]
 
 export default function Page(){
+
 return(
 
 <main className="min-h-screen bg-white text-gray-900">
 
 <Navbar/>
 
-{/* HERO */}
-
-<section className="text-center py-24 md:py-36 px-6 md:px-10">
+<section className="text-center py-28 md:py-36 px-6 md:px-10">
 
 <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-10">
 Agência Digital Criativa
@@ -36,8 +37,6 @@ para desenvolver soluções digitais impactantes.
 </p>
 
 </section>
-
-{/* SERVIÇOS */}
 
 <section className="grid md:grid-cols-3 gap-10 md:gap-16 px-6 md:px-20 py-20 md:py-28 text-center">
 
@@ -76,8 +75,6 @@ a experiência do usuário.
 
 </section>
 
-{/* SOBRE */}
-
 <section className="text-center py-20 md:py-28 px-6 md:px-20">
 
 <h2 className="text-3xl md:text-5xl font-bold mb-10">
@@ -91,8 +88,6 @@ ideias em experiências digitais de alto impacto.
 </p>
 
 </section>
-
-{/* PORTFÓLIO */}
 
 <section className="px-6 md:px-16 py-20 md:py-24">
 
@@ -116,8 +111,6 @@ className="bg-gray-100 h-48 md:h-56 rounded-xl flex items-center justify-center 
 </div>
 
 </section>
-
-{/* CTA */}
 
 <section className="text-center py-24 md:py-32 bg-gray-100">
 
